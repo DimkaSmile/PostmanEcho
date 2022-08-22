@@ -21,6 +21,5 @@ public class PostmanEchoTest {
                 .body("data", equalTo("I hope you are allright"))
 
                 .body("headers.content-length", equalTo("23"));
-        ;
     }
 }

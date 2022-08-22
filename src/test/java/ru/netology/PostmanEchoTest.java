@@ -20,7 +20,7 @@ public class PostmanEchoTest {
                 .contentType(ContentType.JSON)
                 .body("data", equalTo("I hope you are allright"))
 
-                .body("headers.content-length", equalTo("23"))
+                .body("headers.content-length", equalTo("23"));
         ;
     }
 }
